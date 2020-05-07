@@ -12,7 +12,7 @@ LDFLAGS = `LIBFLAGS`
 
 TARGETS = serial_matmul upcxx_test upcxx_matmul
 
-all:	$(TARGETS)
+all: $(TARGETS)
 
 matmul: serial_matmul.cpp
 $(CXX) serial_matmul.cpp -o serial_matmul $($meta CXXFLAGS) $($meta LDFLAGS)
