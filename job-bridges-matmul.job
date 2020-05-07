@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -A sc5fp4p
+#SBATCH -J matmul
+#SBATCH -o matmul.stdout
+#SBATCH -N 64
+#SBATCH --ntasks-per-node=1
+#SBATCH -p RM
+#SBATCH -t 00:480:00
+
+source modules.sh
+upcxx-run -n 1  ./upcxx_matmul 10
+upcxx-run -n 2  ./upcxx_matmul 10
+upcxx-run -n 4  ./upcxx_matmul 10
+upcxx-run -n 8  ./upcxx_matmul 10
+upcxx-run -n 16  ./upcxx_matmul 10
+upcxx-run -n 32  ./upcxx_matmul 10
+upcxx-run -n 64  ./upcxx_matmul 10
