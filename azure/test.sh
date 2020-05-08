@@ -1,1 +1,1 @@
-echo "Hello World!" > output.stdout
+echo "Hello World!" >> output.stdout
