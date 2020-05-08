@@ -4,11 +4,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * To-do:
- * Make a function that will break up the # of matrices across ranks (exponents of 2: 1, 2, 4, 8, 16, 32, 64)
-**/
-
 int matrix_size = 1;
 int n_ranks = 0;
 int matrix_size_per_ranks = 0;
@@ -31,8 +26,19 @@ int main(int argc, char* argv[])
     n_ranks = upcxx::rank_n();
     matrix_size = atoi(argv[1]);
     
+    if(upcxx::rank_me() == 0)
+    {
+        //print out how many ranks and a break line
+        std::cout << "Total number of ranks: " << n_ranks << std::endl;
+        std::cout << "Matrix size: " << matrix_size << " x " << matrix_size << std::endl;
+        std::cout << "----------------------------------" << std::endl;
+    }
+    
     find_rank_size();
     upcxx_matmul();
+    
+    //print out a break line for formatting
+    std::cout << "----------------------------------" << std::endl;
     
     upcxx::finalize();
     
@@ -55,8 +61,8 @@ void upcxx_matmul()
         
         for(int i=0 ; i<matrix_size*matrix_size ; i++)
         {
-            rput(1, a+i).wait();
-            rput(1, b+i).wait();
+            rput(rand()%100, a+i).wait();
+            rput(rand()%100, b+i).wait();
             rput(0, c+i).wait();
         }
     }
@@ -88,7 +94,7 @@ void upcxx_matmul()
     
     upcxx::barrier();
     timer = clock() - timer;
-    printf ("Processor %d - %d clicks (%f seconds).\n",upcxx::rank_me(), timer,((float)timer)/CLOCKS_PER_SEC);
+    printf ("Processor %d/%d - %d clicks (%f seconds).\n", upcxx::rank_me()+1, n_ranks, timer,((float)timer)/CLOCKS_PER_SEC);
     
     
     // if(upcxx::rank_me() == 0)
