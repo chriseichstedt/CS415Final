@@ -1,1 +1,1 @@
-echo "Hello World!" >> File1
+echo "Hello World!" > File1
