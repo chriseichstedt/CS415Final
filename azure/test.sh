@@ -1,2 +1,1 @@
-echo "Hello World!" File1
-stdout File1
+echo "Hello World!" >> File1
