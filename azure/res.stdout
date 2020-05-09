@@ -1,0 +1,87 @@
+Total number of ranks: 1
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/1 - 836379 clicks (0.836379 seconds).
+----------------------------------
+Total number of ranks: 2
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/2 - 209131 clicks (0.209131 seconds).
+----------------------------------
+Processor 2/2 - 209169 clicks (0.209169 seconds).
+----------------------------------
+Total number of ranks: 4
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/4 - 48500 clicks (0.048500 seconds).
+----------------------------------
+Processor 2/4 - 48500 clicks (0.048500 seconds).
+----------------------------------
+Processor 4/4 - 48500 clicks (0.048500 seconds).
+----------------------------------
+Processor 3/4 - 48500 clicks (0.048500 seconds).
+----------------------------------
+Total number of ranks: 8
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/8 - 11243 clicks (0.011243 seconds).
+----------------------------------
+Processor 7/8 - 11237 clicks (0.011237 seconds).
+----------------------------------
+Processor 5/8 - 11243 clicks (0.011243 seconds).
+----------------------------------
+Processor 8/8 - 11162 clicks (0.011162 seconds).
+----------------------------------
+Processor 3/8 - 11232 clicks (0.011232 seconds).
+----------------------------------
+Processor 6/8 - 11244 clicks (0.011244 seconds).
+----------------------------------
+Processor 4/8 - 11245 clicks (0.011245 seconds).
+----------------------------------
+Processor 2/8 - 11245 clicks (0.011245 seconds).
+----------------------------------
+Total number of ranks: 1
+Matrix size: 25 x 25
+----------------------------------
+Processor 1/1 - 79869067 clicks (79.869064 seconds).
+----------------------------------
+Total number of ranks: 2
+Matrix size: 25 x 25
+----------------------------------
+Processor 1/2 - 19970856 clicks (19.970856 seconds).
+----------------------------------
+Processor 2/2 - 19976556 clicks (19.976557 seconds).
+----------------------------------
+Total number of ranks: 4
+Matrix size: 25 x 25
+----------------------------------
+Processor 1/4 - 5042090 clicks (5.042090 seconds).
+----------------------------------
+Processor 2/4 - 5042054 clicks (5.042054 seconds).
+----------------------------------
+Processor 4/4 - 5041955 clicks (5.041955 seconds).
+----------------------------------
+Processor 3/4 - 5042178 clicks (5.042178 seconds).
+----------------------------------
+Total number of ranks: 8
+Matrix size: 25 x 25
+----------------------------------
+Processor 1/8 - 1246343 clicks (1.246343 seconds).
+----------------------------------
+Processor 4/8 - 1246957 clicks (1.246957 seconds).
+----------------------------------
+Processor 8/8 - 1237424 clicks (1.237424 seconds).
+----------------------------------
+Processor 5/8 - 1246904 clicks (1.246904 seconds).
+----------------------------------
+Processor 3/8 - 1246968 clicks (1.246968 seconds).
+----------------------------------
+Processor 7/8 - 1246955 clicks (1.246955 seconds).
+----------------------------------
+Processor 2/8 - 1246932 clicks (1.246932 seconds).
+----------------------------------
+Processor 6/8 - 1246799 clicks (1.246799 seconds).
+----------------------------------
+Total number of ranks: 1
+Matrix size: 50 x 50
+----------------------------------
