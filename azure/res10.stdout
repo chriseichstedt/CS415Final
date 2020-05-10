@@ -29,3 +29,45 @@ Processor 3/8 - 17810 clicks (0.017810 seconds).
 ----------------------------------
 Processor 6/8 - 17810 clicks (0.017810 seconds).
 ----------------------------------
+Total number of ranks: 1
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/1 - 632575 clicks (0.632575 seconds).
+----------------------------------
+Total number of ranks: 2
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/2 - 173611 clicks (0.173611 seconds).
+----------------------------------
+Processor 2/2 - 173585 clicks (0.173585 seconds).
+----------------------------------
+Total number of ranks: 4
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/4 - 43462 clicks (0.043462 seconds).
+----------------------------------
+Processor 3/4 - 43462 clicks (0.043462 seconds).
+----------------------------------
+Processor 2/4 - 43463 clicks (0.043463 seconds).
+----------------------------------
+Processor 4/4 - 43462 clicks (0.043462 seconds).
+----------------------------------
+Total number of ranks: 8
+Matrix size: 10 x 10
+----------------------------------
+Processor 1/8 - 16369 clicks (0.016369 seconds).
+----------------------------------
+Processor 8/8 - 16376 clicks (0.016376 seconds).
+----------------------------------
+Processor 3/8 - 16376 clicks (0.016376 seconds).
+----------------------------------
+Processor 7/8 - 16377 clicks (0.016377 seconds).
+----------------------------------
+Processor 4/8 - 16371 clicks (0.016371 seconds).
+----------------------------------
+Processor 6/8 - 16377 clicks (0.016377 seconds).
+----------------------------------
+Processor 2/8 - 16369 clicks (0.016369 seconds).
+----------------------------------
+Processor 5/8 - 16369 clicks (0.016369 seconds).
+----------------------------------
