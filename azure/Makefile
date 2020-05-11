@@ -20,7 +20,9 @@ upcxx_test: upcxx_test.cpp
 	$(CXX) upcxx_test.cpp -o upcxx_test $(CXXFLAGS) $(LDFLAGS)
 	
 upcxx_matmul: upcxx_matmul.cpp
-	../../upcxx2020/bin/upcxx -O upcxx_matmul.cpp
+	export PATH="../../upcxx2020/bin/:$PATH"
+	upcxx -O -c upcxx_matmul.cpp
+	upcxx -O -o upcxx_matmul upcxx_matmul.o -lm
 	
 clean:
 	rm -f $(targets) $(objects) *.stdout *.o ; rm -fv serial_matmul ; rm -fv upcxx_test ; rm -fv upcxx_matmul
