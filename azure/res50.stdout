@@ -1,48 +1,48 @@
 Total number of ranks: 1
 Matrix size: 50 x 50
 ----------------------------------
-Processor 1/1 - 2092557543 clicks (2092.557617 seconds).
+Processor 1/1 - 93232553 clicks (93.232552 seconds).
 ----------------------------------
 WARNING: ./upcxx_matmul was compiled with smp backend, which only supports single-node operation. -N option ignored.
 WARNING: For multi-node operation, please re-compile with UPCXX_NETWORK=<backend>
 Total number of ranks: 2
 Matrix size: 50 x 50
 ----------------------------------
-Processor 1/2 - 538323551 clicks (538.323547 seconds).
+Processor 1/2 - 23689798 clicks (23.689798 seconds).
 ----------------------------------
-Processor 2/2 - 538369710 clicks (538.369751 seconds).
+Processor 2/2 - 23688655 clicks (23.688656 seconds).
 ----------------------------------
 WARNING: ./upcxx_matmul was compiled with smp backend, which only supports single-node operation. -N option ignored.
 WARNING: For multi-node operation, please re-compile with UPCXX_NETWORK=<backend>
 Total number of ranks: 4
 Matrix size: 50 x 50
 ----------------------------------
-Processor 1/4 - 140368559 clicks (140.368561 seconds).
+Processor 1/4 - 6048251 clicks (6.048251 seconds).
 ----------------------------------
-Processor 4/4 - 140362975 clicks (140.362976 seconds).
+Processor 4/4 - 6048161 clicks (6.048161 seconds).
 ----------------------------------
-Processor 3/4 - 140366235 clicks (140.366241 seconds).
+Processor 2/4 - 6047817 clicks (6.047817 seconds).
 ----------------------------------
-Processor 2/4 - 140367207 clicks (140.367203 seconds).
+Processor 3/4 - 6048255 clicks (6.048255 seconds).
 ----------------------------------
 WARNING: ./upcxx_matmul was compiled with smp backend, which only supports single-node operation. -N option ignored.
 WARNING: For multi-node operation, please re-compile with UPCXX_NETWORK=<backend>
 Total number of ranks: 8
 Matrix size: 50 x 50
 ----------------------------------
-Processor 1/8 - 66513697 clicks (66.513695 seconds).
+Processor 1/8 - 3075061 clicks (3.075061 seconds).
 ----------------------------------
-Processor 4/8 - 66646573 clicks (66.646568 seconds).
+Processor 3/8 - 3075084 clicks (3.075084 seconds).
 ----------------------------------
-Processor 6/8 - 66626953 clicks (66.626953 seconds).
+Processor 4/8 - 3075843 clicks (3.075843 seconds).
 ----------------------------------
-Processor 7/8 - 66641609 clicks (66.641609 seconds).
+Processor 5/8 - 3075679 clicks (3.075679 seconds).
 ----------------------------------
-Processor 3/8 - 66636123 clicks (66.636124 seconds).
+Processor 8/8 - 3075607 clicks (3.075607 seconds).
 ----------------------------------
-Processor 8/8 - 66657901 clicks (66.657898 seconds).
+Processor 6/8 - 3068091 clicks (3.068091 seconds).
 ----------------------------------
-Processor 5/8 - 66629697 clicks (66.629700 seconds).
+Processor 2/8 - 3071419 clicks (3.071419 seconds).
 ----------------------------------
-Processor 2/8 - 66517009 clicks (66.517006 seconds).
+Processor 7/8 - 3075779 clicks (3.075779 seconds).
 ----------------------------------
