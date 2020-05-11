@@ -1,15 +1,18 @@
 Total number of ranks: 1
 Matrix size: 100 x 100
 ----------------------------------
+WARNING: ./upcxx_matmul was compiled with smp backend, which only supports single-node operation. -N option ignored.
+WARNING: For multi-node operation, please re-compile with UPCXX_NETWORK=<backend>
 Total number of ranks: 2
 Matrix size: 100 x 100
 ----------------------------------
+WARNING: ./upcxx_matmul was compiled with smp backend, which only supports single-node operation. -N option ignored.
+WARNING: For multi-node operation, please re-compile with UPCXX_NETWORK=<backend>
 Total number of ranks: 4
 Matrix size: 100 x 100
 ----------------------------------
+WARNING: ./upcxx_matmul was compiled with smp backend, which only supports single-node operation. -N option ignored.
+WARNING: For multi-node operation, please re-compile with UPCXX_NETWORK=<backend>
 Total number of ranks: 8
-Matrix size: 100 x 100
-----------------------------------
-Total number of ranks: 1
 Matrix size: 100 x 100
 ----------------------------------
